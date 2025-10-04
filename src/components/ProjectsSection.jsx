@@ -14,7 +14,7 @@ const ProjectsSection = ({ setActiveSection }) => {
         Sample Projects
       </h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-        
+        <a
           href="https://eno-verse.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
@@ -27,6 +27,7 @@ const ProjectsSection = ({ setActiveSection }) => {
           <p className="text-gray-300">A live demo of AI-POWERED WEB3 RPG GAME</p>
         </a>
         
+        <a
           href="https://zaik.netlify.app/"
           target="_blank"
           rel="noopener noreferrer"
@@ -39,6 +40,7 @@ const ProjectsSection = ({ setActiveSection }) => {
           <p className="text-gray-300">A DEMO OF WEB3 WALLET AI ASSISTANT THAT ALLOWS USERS TO TRANSFER ASSETS, DO EVERYTHING IN THE WALLET WITH JUST WORD COMMANDS</p>
         </a>
         
+        <a
           href="https://brane-kohl.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
