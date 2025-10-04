@@ -37,6 +37,7 @@ const Portfolio = () => {
         </button>
       </nav>
 
+      
       <div
         className={`fixed inset-0 bg-gradient-to-br from-blue-900 via-orange-900 to-gray-900 z-40 transition-transform duration-500 ${
           menuOpen ? 'translate-x-0' : 'translate-x-full'
@@ -60,10 +61,11 @@ const Portfolio = () => {
           </NavItem>
         </div>
       </div>
+
       
       {activeSection === 'hero' && (
         <div className="min-h-screen">
-        
+          
           <section className="min-h-screen flex flex-col justify-center px-6 md:px-20 lg:px-32 animate-fadeIn">
             <div className="max-w-4xl">
               <h1 className="text-5xl md:text-7xl font-bold mb-8" style={{ fontFamily: 'Georgia, serif' }}>
@@ -215,7 +217,7 @@ const Portfolio = () => {
         </section>
       )}
 
-    
+      
       {activeSection === 'upskilling' && (
         <section className="min-h-screen flex flex-col justify-center px-6 md:px-20 lg:px-32 py-20 animate-fadeIn">
           <button
@@ -361,25 +363,6 @@ const Portfolio = () => {
           </div>
         </section>
       )}
-
-      <style jsx>{`
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-        
-        @keyframes fadeIn {
-          from {
-            opacity: 0;
-            transform: translateY(20px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-        
-        .animate-fadeIn {
-          animation: fadeIn 0.8s ease-out;
-        }
-      `}</style>
     </div>
   );
 };
