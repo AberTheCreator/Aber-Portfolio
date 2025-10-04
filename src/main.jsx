@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 import { Menu, X, ChevronDown, ExternalLink } from 'lucide-react';
+import './index.css';
 
 const Portfolio = () => {
   const [menuOpen, setMenuOpen] = useState(false);
